@@ -4,60 +4,77 @@
     <meta charset="UTF-8">
     <title>Resume Cain Rutgers</title>
     <style>
-      body {
-  font-family: Arial, sans-serif;
-}
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-}
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: lightgray;
+  }
 
-h1 {
-  font-size: 36px;
-  margin: 0;
-}
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
 
-nav ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
 
-nav li a {
-  font-size: 18px;
-  padding: 10px 20px;
-  text-decoration: none;
-  color: black;
-}
+  nav li a {
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+  }
 
-main {
-  padding: 20px;
-}
+  main {
+    padding: 20px;
+  }
 
-section h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
 
-section ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+  section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
 
-section li h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
+  section li h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
 
-section li p {
-  font-size: 16px;
-  line-height: 1.5;
-}
+  section li p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  @media (max-width: 767px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    nav li a {
+      font-size: 16px;
+    }
+  }
     </style>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
