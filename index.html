@@ -50,6 +50,27 @@
   </head>
   <body>
     <h1>Resume Cain Rutgers</h1>
+    .container {
+  display: flex;
+  flex-direction: row;
+}
+
+.text {
+  flex: 1;
+}
+
+.image {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .image {
+    order: -1;
+  }
+}
     <div class="container">
       <div class="section">
         <h2>About</h2>
