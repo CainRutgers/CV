@@ -4,7 +4,26 @@
     <meta charset="UTF-8">
     <title>Resume Cain Rutgers</title>
     <style>
-   body {
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.section {
+  flex: 1;
+}
+
+.image {
+  float: right;
+  margin: 0 0 20px 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+      body {
   font-family: Arial, sans-serif;
   background-image: url(https://www.dropbox.com/s/iqjzqj58nyyjjl6/Background%20website.jpg?raw=1);
   background-size: 150px auto;
@@ -49,14 +68,18 @@
     </style>
   </head>
   <body>
-    <h1>Resume Cain Rutgers</h1>
-    <div class="container">
-      <div class="section">
-        <h2>About</h2>
-        <p>Combining a full-time master in medicine with being a PhD candidate and previous national champion in middle-distance runner is a sign of my two best personal characteristics: determination and consistency.</p>
-      </div>
-      <div class="section">
-        <h2>Experience</h2>
+  <h1>Resume Cain Rutgers</h1>
+  <div class="container">
+    <div class="section">
+      <h2>About</h2>
+      <p>Combining a full-time master in medicine with being a PhD candidate and previous national champion in middle-distance runner is a sign of my two best personal characteristics: determination and consistency.</p>
+    </div>
+    <div class="section image">
+      <img src=https://www.dropbox.com/s/xataqn99lzwvkf9/20220104-LVH00517.jpg?raw=1>
+    </div>
+    <div style="clear:both"></div>
+    <div class="section">
+      <h2>Experience</h2>
         <p>As a <strong>PhD candidate</strong> at the OLVG hospital, I am at the forefront of medical innovation, working with medical businesses to find <strong>cutting-edge solutions</strong> to the problems of today. I collaborate with multiple specialists from top medical institutions such as the <strong>OLVG hospital, UMC-AMC, UMC-VUmc and Deventer Hospital</strong>. My area of expertise is shoulder pathologies and I have a passion for researching <strong>artificial intelligence-based (imaging) solutions and surgical procedures</strong> for shoulder disorders. My ultimate goal is to make a meaningful impact on patients and inspire future generations of medical students to become enthusiastic about research.</p>
 
         <p>In addition to my research, I was also a student <strong>tutor</strong> at the Vrije Universiteit Amsterdam, where I supported first-year medicine students during the challenging time of Covid-19 lockdowns. Additionally, I served as an <strong>editor</strong> for SlimAcademy, where I wrote study material and summarized existing literature to support medicine students in their education. Also, I was an <strong>ambassador</strong> for SlimAcademy, where I helped organize and execute communications and worked closely with student associations.</p>
