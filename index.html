@@ -4,17 +4,14 @@
     <meta charset="UTF-8">
     <title>Resume Cain Rutgers</title>
     <style>
-.container {
-  max-width: 800px;
-  margin: 50px auto;
-  padding: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.section {
-  flex: 1;
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+    }
+      .section {
   margin-top: 40px;
 }
 
@@ -31,7 +28,7 @@
 }
 
 .image {
-  max-width: 35%;
+  max-width: 10%;
   height: auto;
   float: right;
   margin: 0 0 20px 20px;
@@ -62,9 +59,34 @@ h1 {
   color: #333;
   margin-top: 40px;
 }
+
+/* Top bar */
+.top-bar {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.top-bar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+}
+      
 </style>
-  </head>
-  <body>
+</head>
+<body>
+  <div class="top-bar">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#extra-curricular">Extra-curricular</a>
+    <a href="#projects">Projects</a>
+    <a href="#publications">Publications</a>
+  </div>
   <h1>Resume Cain Rutgers</h1>
   <div class="container">
     <div class="section">
