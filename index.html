@@ -11,19 +11,12 @@
     margin: 0 0 20px 20px;
   }
 
-      @media only screen and (max-width: 600px) {
-  .image-container {
-    width: 100%;
-    float: none;
-    margin-bottom: 20px;
-  }
-
-  .image {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px 0;
-  }
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px 0;
+}
       
   .icon {
     width: 32px;
@@ -107,6 +100,21 @@
   }
 }
     </style>
+  @media only screen and (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .image {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+}
 <body>
   <div class="top-bar">
   <a href="#about" onclick="scrollToSection('about')">About</a>
