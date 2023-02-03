@@ -20,19 +20,20 @@ body {
   background-attachment: fixed;
 }
 
-.outer { 
+  .outer { 
     position: relative;
     width: 100%;
-    padding-bottom: 8%;
-}
-
-.inner {
+    padding-bottom: 12%;
+  }
+  .inner {
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: #d9d9d9;
-}
-
+    background-image: 
+      repeating-linear-gradient(60deg, transparent 0, transparent 5px, #333 5px, #333 10px),
+      repeating-linear-gradient(120deg, transparent 0, transparent 5px, #333 5px, #333 10px);
+    
   .container {
     max-width: 800px;
     margin: 50px auto;
