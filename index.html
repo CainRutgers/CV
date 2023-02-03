@@ -27,19 +27,20 @@
     margin-top: 20px;
   }
 
-  .image {
-    max-width: 768px;
+    .image {
+    width: 25%;
     height: auto;
     float: right;
     margin: 0 0 20px 20px;
   }
 
-  @media (max-width: 25%) {
+  @media (max-width: 768px) {
     .container {
       flex-direction: column;
     }
     .image {
-      max-width: 25%;
+      width: 100%;
+      height: auto;
       float: none;
       margin: 20px 0;
     }
