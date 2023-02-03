@@ -186,5 +186,14 @@
           <li><a href="https://doi.org/10.1007/s00167-021-06847-7">KSSTA 2022. Rutgers, Verweij, Priester-Vink, Deurzen, Maas, Bekerom.<br>
 •	Recurrence in traumatic anterior shoulder dislocations increases the prevalence of Hill-Sachs and Bankart lesions: a systematic review and meta-analysis.</a></li>
 </p>
+<script>
+  document.querySelectorAll('.top-bar a').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      let target = document.querySelector(this.getAttribute('href'));
+      target.scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+</script>
   </body>
 </html>
